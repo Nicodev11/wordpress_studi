@@ -1,0 +1,18 @@
+2022-12-19T12:50:09+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\wordpress_studi\wp-content\themes\travel-monster\inc\custom-functions.php:619
+Stack trace:
+#0 C:\xampp\htdocs\wordpress_studi\wp-includes\class-wp-hook.php(308): travel_monster_dynamic_mce_css_ajax_callback('')
+#1 C:\xampp\htdocs\wordpress_studi\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress_studi\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress_studi\wp-admin\admin-ajax.php(188): do_action('wp_ajax_travel_...')
+#4 {main}
+  thrown dans C:\xampp\htdocs\wordpress_studi\wp-content\themes\travel-monster\inc\custom-functions.php à la ligne 619
+
+2022-12-19T12:50:11+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\wordpress_studi\wp-content\themes\travel-monster\inc\custom-functions.php:619
+Stack trace:
+#0 C:\xampp\htdocs\wordpress_studi\wp-includes\class-wp-hook.php(308): travel_monster_dynamic_mce_css_ajax_callback('')
+#1 C:\xampp\htdocs\wordpress_studi\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress_studi\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress_studi\wp-admin\admin-ajax.php(188): do_action('wp_ajax_travel_...')
+#4 {main}
+  thrown dans C:\xampp\htdocs\wordpress_studi\wp-content\themes\travel-monster\inc\custom-functions.php à la ligne 619
+

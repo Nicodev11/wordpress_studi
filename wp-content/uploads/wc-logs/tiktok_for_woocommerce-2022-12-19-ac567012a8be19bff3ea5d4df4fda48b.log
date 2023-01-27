@@ -1,0 +1,95 @@
+2022-12-19T12:48:31+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_63a05d9fd2af6httplocalhostwordpressstudiwp-admin","smb_name":"PROD","redirect_url":"http:\/\/localhost\/wordpress_studi\/wp-admin\/"}
+ ajax: DOING_AJAX
+2022-12-19T12:48:36+00:00 ERROR Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+http_request_failed: cURL error 28: Operation timed out after 5007 milliseconds with 0 bytes received
+
+2022-12-19T12:48:37+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+X-Tt-Logid: 20221219124827A7DCBFBF3322371FFDFD,20221219124827A7DCBFBF3322371FFDFD
+x-tt-trace-host: 01fecf38a15b17cbffeb20cfbbb1afa5d71532e85270b62d33fe13962fc3e2793de0589eaf18ad157b5a5f7f1056b44745dce0b94da6149077786bc5f3715fbd1b3ecc2bf5f251ec8917f327c1b8b15d2dbcd13deb17077cc6477c6af778c6ccf9cc2622ff1c467063390a29200c0153dc
+Content-Encoding: gzip
+Content-Length: 212
+X-Origin-Response-Time: 111,23.44.5.119
+X-Akamai-Request-ID: 4bbcadd4.247de9f7
+Date: Mon, 19 Dec 2022 12:48:28 GMT
+X-Cache: TCP_MISS from a23-77-196-185.deploy.akamaitechnologies.com (AkamaiGHost/10.10.3-45298580) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-44-5-119.deploy.akamaitechnologies.com (AkamaiGHost/10.10.3-45298580) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=158, origin; dur=111
+Server-Timing: inner; dur=104
+X-Parent-Response-Time: 266,23.77.196.185
+
+{"code":0,"msg":"ok","data":{"redirect_uri":"http:\/\/localhost\/wordpress_studi\/wp-admin\/","app_id":"7178840710911623169","external_data_key":"66a37289-35a3-430b-ba2a-3e086f18c903","app_secret":"36145f8c0d725cbac6f658ef20b778d3b4a80d77"}}
+
+2022-12-19T12:50:01+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-12-19T12:50:01+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-12-19T12:50:03+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-12-19T12:50:03+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-12-19T12:54:14+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.2/tbp/business_profile/disconnect/
+
+{"external_business_id":"tt4b_woocommerce_63a05d9fd2af6","business_platform":"WOO_COMMERCE","is_setup_page":0,"app_id":"7178840710911623169"}
+ ajax: DOING_AJAX
+2022-12-19T12:54:14+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json; charset=utf-8
+Content-Length: 103
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 202212191254048CBC3217481D26212333
+x-tt-trace-host: 01fecf38a15b17cbffeb20cfbbb1afa5d7954c65d8951a07c9306eb496166350e0f6ad0402668b7422f507f6e1723d110eda575c0a67a73bf3c773190cee428b9bc3ffeb5933c45bbf1cb4fd8170d3dacb544b8d612320102bb49ced21e99a3862223f8de6bba14c008b4627edb76651de
+X-Origin-Response-Time: 11,184.28.235.110
+X-Akamai-Request-ID: ab9a45c0.2488003c
+Expires: Mon, 19 Dec 2022 12:54:05 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 19 Dec 2022 12:54:05 GMT
+X-Cache: TCP_MISS from a23-77-196-185.deploy.akamaitechnologies.com (AkamaiGHost/10.10.3-45298580) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a184-28-235-110.deploy.akamaitechnologies.com (AkamaiGHost/10.10.3-45298580) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=155, origin; dur=11
+Server-Timing: inner; dur=5
+X-Parent-Response-Time: 163,23.77.196.185
+
+{"code":40104,"message":"The access_token is empty.","request_id":"202212191254048CBC3217481D26212333"}
+
+2022-12-19T12:54:14+00:00 DEBUG POST: https://business-api.tiktok.com/tbp/v2.0/shop/connection/disconnect?external_data=
+
+--- EMPTY STRING ---
+ ajax: DOING_AJAX
+2022-12-19T12:54:14+00:00 DEBUG Tt4b_Mapi_Class::tts_shop_disconnect: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json; charset=utf-8
+Content-Length: 95
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 202212191254053FA2AA369AB2E4207D17
+x-tt-trace-host: 01fecf38a15b17cbffeb20cfbbb1afa5d71532e85270b62d33fe13962fc3e2793d62170ab5ad45ed03aa49d4f4fa7d3ddb7a3e761c28b22a576b83ffde2d39068b099c01d408f29315bf2735a535debdf0af7ceae927e88e9a6db69063829ae3e7c067f1fe09b34c552ac84bfd67ad5dd8
+X-Origin-Response-Time: 18,23.44.5.93
+X-Akamai-Request-ID: 37477cc2.2488027a
+Expires: Mon, 19 Dec 2022 12:54:06 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 19 Dec 2022 12:54:06 GMT
+X-Cache: TCP_MISS from a23-77-196-185.deploy.akamaitechnologies.com (AkamaiGHost/10.10.3-45298580) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-44-5-93.deploy.akamaitechnologies.com (AkamaiGHost/10.10.3-45298580) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=214, origin; dur=18
+Server-Timing: inner; dur=13
+X-Parent-Response-Time: 220,23.77.196.185
+
+{"code":40001,"message":"Permission denied.","request_id":"202212191254053FA2AA369AB2E4207D17"}
+
